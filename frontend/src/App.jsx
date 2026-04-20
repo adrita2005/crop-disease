@@ -1393,7 +1393,7 @@
 // }
 import { useCallback, useEffect, useRef, useState } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://crop-disease-dhbu.onrender.com";
 
 const severityConfig = {
   None:     { color: "#22c55e", bg: "rgba(34,197,94,0.15)",   label: "✦ Healthy",   glow: "0 0 20px rgba(34,197,94,0.4)" },
